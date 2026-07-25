@@ -6,7 +6,7 @@ contract SimpleStorage {
   //Basic types: boolean, unint, int, address, bytes
   uint256 myFavoriteNumber; // Initialize to 0
 
-  function store(uint256 _favoriteNumber) public {
+  function store(uint256 _favoriteNumber) public virtual {
     myFavoriteNumber = _favoriteNumber;
   }
 
